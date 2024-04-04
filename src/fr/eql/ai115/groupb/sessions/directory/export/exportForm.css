@@ -1,0 +1,47 @@
+/*Adapted from Oracle JavaFX Documentation Home */
+
+/*The background style is applied to the .root style, which means it is applied
+ * to the root node of the Scene instance
+ */
+.root {
+    /*  -fx-background-image: url("background.jpg");*/
+    -fx-background-color: #EEF3FF;
+}
+
+.barreMenu {
+    -fx-background-color: #EEF3FF;
+}
+
+/* the .label style class, which means the styles will affect all labels in the form */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #455F78;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+/*titreText est un ID défini dans le code java. Il doit être précédé de # */
+#titreText {
+   -fx-font-size: 25px;
+   -fx-font-family: "Open Sans";
+   -fx-fill: #455F78;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#actionTexte {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+
+.btn {
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#455F78, #455F78);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#FFFFFF, #FFFFFF);
+}
+
+.

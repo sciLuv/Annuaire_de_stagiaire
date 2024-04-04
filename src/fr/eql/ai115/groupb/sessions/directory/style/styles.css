@@ -1,0 +1,40 @@
+/*Adapted from Oracle JavaFX Documentation Home */
+
+/*The background style is applied to the .root style, which means it is applied
+ * to the root node of the Scene instance
+ */
+.root {
+    /*  -fx-background-image: url("background.jpg");*/
+    -fx-background-color: white;
+}
+
+.menu {
+    -fx-font-size: 14px;
+    -fx-padding: 10px,20px,10px,20px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: normal;
+    -fx-text-fill: black;
+}
+
+/* the .label style class, which means the styles will affect all labels in the form */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: normal;
+    -fx-text-fill: #455F78;
+}
+
+#title {
+   -fx-font-size: 20px;
+   -fx-font-family: "Open Sans";
+   -fx-font-weight: bold;
+   -fx-text-fill: #455F78;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: bold;
+    -fx-background-color: #455F78;
+}
+
