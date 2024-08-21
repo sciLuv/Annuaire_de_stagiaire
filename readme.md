@@ -48,5 +48,5 @@ L'application offre plusieurs fonctionnalités, telles que la gestion des utilis
 - `db/` : Contient les fichiers de persistance des données sous forme binaire et textuelle.
 
 
-picture_readme/pic1.png
-picture_readme/pic2.png
+[picture_readme/pic1.png]
+[picture_readme/pic2.png]
